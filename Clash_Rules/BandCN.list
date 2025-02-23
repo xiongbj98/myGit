@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai.com
 DOMAIN-SUFFIX,integrate.api.nvidia.com
+DOMAIN-SUFFIX,grok.com
 
 # NAME: TikTok
 # AUTHOR: blackmatrix7
