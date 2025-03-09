@@ -1,0 +1,282 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: "🇭🇰 Lv2 香港 01 [1.5]", server: sdv2-hk.04z3susick.download, port: 5601, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 Lv2 香港 02 [1.5]", server: sdv2-hk.04z3susick.download, port: 5602, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 Lv2 香港 03 [1.5]", server: sdv2-hk.04z3susick.download, port: 5603, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 Lv2 香港 04 [1.5]", server: sdv2-hk.04z3susick.download, port: 5604, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 Lv2 香港 05 [1.5]", server: sdv2-hk.04z3susick.download, port: 5605, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 Lv2 香港 06 [1.5]", server: sdv2-hk.04z3susick.download, port: 5606, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 Lv2 香港 07 [1.5]", server: sdv2-hk.04z3susick.download, port: 5607, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 Lv2 香港 08 [1.5]", server: sdv2-hk.04z3susick.download, port: 5608, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 Lv2 台湾 01 [1.5]", server: sdv2-tw.04z3susick.download, port: 5621, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 Lv2 台湾 02 [1.5]", server: sdv2-tw.04z3susick.download, port: 5622, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 Lv2 台湾 03 [1.5]", server: sdv2-tw.04z3susick.download, port: 5623, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 Lv2 台湾 04 [1.5]", server: sdv2-tw.04z3susick.download, port: 5624, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 Lv2 台湾 05 [1.5]", server: sdv2-tw.04z3susick.download, port: 5625, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 Lv2 台湾 06 [1.5]", server: sdv2-tw.04z3susick.download, port: 5626, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 Lv2 日本 01 [1.5]", server: sdv2-jp.04z3susick.download, port: 5615, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 Lv2 日本 02 [1.5]", server: sdv2-jp.04z3susick.download, port: 5616, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 Lv2 日本 03 [1.5]", server: sdv2-jp.04z3susick.download, port: 5617, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 Lv2 日本 04 [1.5]", server: sdv2-jp.04z3susick.download, port: 5618, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 Lv2 日本 05 [1.5]", server: sdv2-jp.04z3susick.download, port: 5619, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 Lv2 日本 06 [1.5]", server: sdv2-jp.04z3susick.download, port: 5620, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 Lv2 美国 01 [1.5]", server: sdv2-us.04z3susick.download, port: 5627, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 Lv2 美国 02 [1.5]", server: sdv2-us.04z3susick.download, port: 5628, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 Lv2 美国 03 [1.5]", server: sdv2-us.04z3susick.download, port: 5629, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 Lv2 美国 04 [1.5]", server: sdv2-us.04z3susick.download, port: 5630, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 Lv2 美国 05 [1.5]", server: sdv2-us.04z3susick.download, port: 5631, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 Lv2 美国 06 [1.5]", server: sdv2-us.04z3susick.download, port: 5632, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 Lv2 新加坡 01 [1.5]", server: sdv2-sg.04z3susick.download, port: 5609, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 Lv2 新加坡 02 [1.5]", server: sdv2-sg.04z3susick.download, port: 5610, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 Lv2 新加坡 03 [1.5]", server: sdv2-sg.04z3susick.download, port: 5611, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 Lv2 新加坡 04 [1.5]", server: sdv2-sg.04z3susick.download, port: 5612, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 Lv2 新加坡 05 [1.5]", server: sdv2-sg.04z3susick.download, port: 5613, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 Lv2 新加坡 06 [1.5]", server: sdv2-sg.04z3susick.download, port: 5614, type: trojan, password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
+proxy-groups:
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇹🇼 台湾节点
+  - name: 🤖 BandCN
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇭🇰 Lv2 香港 01 [1.5]
+      - 🇭🇰 Lv2 香港 02 [1.5]
+      - 🇭🇰 Lv2 香港 03 [1.5]
+      - 🇭🇰 Lv2 香港 04 [1.5]
+      - 🇭🇰 Lv2 香港 05 [1.5]
+      - 🇭🇰 Lv2 香港 06 [1.5]
+      - 🇭🇰 Lv2 香港 07 [1.5]
+      - 🇭🇰 Lv2 香港 08 [1.5]
+      - 🇨🇳 Lv2 台湾 01 [1.5]
+      - 🇨🇳 Lv2 台湾 02 [1.5]
+      - 🇨🇳 Lv2 台湾 03 [1.5]
+      - 🇨🇳 Lv2 台湾 04 [1.5]
+      - 🇨🇳 Lv2 台湾 05 [1.5]
+      - 🇨🇳 Lv2 台湾 06 [1.5]
+      - 🇯🇵 Lv2 日本 01 [1.5]
+      - 🇯🇵 Lv2 日本 02 [1.5]
+      - 🇯🇵 Lv2 日本 03 [1.5]
+      - 🇯🇵 Lv2 日本 04 [1.5]
+      - 🇯🇵 Lv2 日本 05 [1.5]
+      - 🇯🇵 Lv2 日本 06 [1.5]
+      - 🇺🇸 Lv2 美国 01 [1.5]
+      - 🇺🇸 Lv2 美国 02 [1.5]
+      - 🇺🇸 Lv2 美国 03 [1.5]
+      - 🇺🇸 Lv2 美国 04 [1.5]
+      - 🇺🇸 Lv2 美国 05 [1.5]
+      - 🇺🇸 Lv2 美国 06 [1.5]
+      - 🇸🇬 Lv2 新加坡 01 [1.5]
+      - 🇸🇬 Lv2 新加坡 02 [1.5]
+      - 🇸🇬 Lv2 新加坡 03 [1.5]
+      - 🇸🇬 Lv2 新加坡 04 [1.5]
+      - 🇸🇬 Lv2 新加坡 05 [1.5]
+      - 🇸🇬 Lv2 新加坡 06 [1.5]
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🎮 Game
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🆎 AdBlock
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🇭🇰 香港节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 Lv2 香港 01 [1.5]
+      - 🇭🇰 Lv2 香港 02 [1.5]
+      - 🇭🇰 Lv2 香港 03 [1.5]
+      - 🇭🇰 Lv2 香港 04 [1.5]
+      - 🇭🇰 Lv2 香港 05 [1.5]
+      - 🇭🇰 Lv2 香港 06 [1.5]
+      - 🇭🇰 Lv2 香港 07 [1.5]
+      - 🇭🇰 Lv2 香港 08 [1.5]
+  - name: 🇺🇸 美国节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇺🇸 Lv2 美国 01 [1.5]
+      - 🇺🇸 Lv2 美国 02 [1.5]
+      - 🇺🇸 Lv2 美国 03 [1.5]
+      - 🇺🇸 Lv2 美国 04 [1.5]
+      - 🇺🇸 Lv2 美国 05 [1.5]
+      - 🇺🇸 Lv2 美国 06 [1.5]
+  - name: 🇯🇵 日本节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇯🇵 Lv2 日本 01 [1.5]
+      - 🇯🇵 Lv2 日本 02 [1.5]
+      - 🇯🇵 Lv2 日本 03 [1.5]
+      - 🇯🇵 Lv2 日本 04 [1.5]
+      - 🇯🇵 Lv2 日本 05 [1.5]
+      - 🇯🇵 Lv2 日本 06 [1.5]
+  - name: 🇸🇬 新加坡节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬 Lv2 新加坡 01 [1.5]
+      - 🇸🇬 Lv2 新加坡 02 [1.5]
+      - 🇸🇬 Lv2 新加坡 03 [1.5]
+      - 🇸🇬 Lv2 新加坡 04 [1.5]
+      - 🇸🇬 Lv2 新加坡 05 [1.5]
+      - 🇸🇬 Lv2 新加坡 06 [1.5]
+  - name: 🇹🇼 台湾节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇨🇳 Lv2 台湾 01 [1.5]
+      - 🇨🇳 Lv2 台湾 02 [1.5]
+      - 🇨🇳 Lv2 台湾 03 [1.5]
+      - 🇨🇳 Lv2 台湾 04 [1.5]
+      - 🇨🇳 Lv2 台湾 05 [1.5]
+      - 🇨🇳 Lv2 台湾 06 [1.5]
+  - name: 🇰🇷 韩国节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇨🇦 加拿大节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇬🇧 英国节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇫🇷 法国节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇩🇪 德国节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇳🇱 荷兰节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇹🇷 土耳其节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇻🇳 越南节点
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+rules:
+  - SRC-IP-CIDR,192.168.1.13/32,🎮 Game
+  - GEOSITE,CN,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - DOMAIN-KEYWORD,openai,🤖 BandCN
+  - DOMAIN-KEYWORD,anthropic,🤖 BandCN
+  - DOMAIN-KEYWORD,Claude,🤖 BandCN
+  - DOMAIN-SUFFIX,perplexity.ai,🤖 BandCN
+  - DOMAIN-SUFFIX,chatgpt.com,🤖 BandCN
+  - DOMAIN-SUFFIX,auth0.com,🤖 BandCN
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,🤖 BandCN
+  - DOMAIN-SUFFIX,events.statsigapi.net,🤖 BandCN
+  - DOMAIN-SUFFIX,featuregates.org,🤖 BandCN
+  - DOMAIN-SUFFIX,identrust.com,🤖 BandCN
+  - DOMAIN-SUFFIX,intercom.io,🤖 BandCN
+  - DOMAIN-SUFFIX,intercomcdn.com,🤖 BandCN
+  - DOMAIN-SUFFIX,oaistatic.com,🤖 BandCN
+  - DOMAIN-SUFFIX,oaiusercontent.com,🤖 BandCN
+  - DOMAIN-SUFFIX,openai.com,🤖 BandCN
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🤖 BandCN
+  - DOMAIN-SUFFIX,sentry.io,🤖 BandCN
+  - DOMAIN-SUFFIX,stripe.com,🤖 BandCN
+  - DOMAIN-SUFFIX,bard.google.com,🤖 BandCN
+  - DOMAIN-SUFFIX,gemini.google.com,🤖 BandCN
+  - DOMAIN-SUFFIX,makersuite.google.com,🤖 BandCN
+  - DOMAIN-SUFFIX,anthropic.com,🤖 BandCN
+  - DOMAIN-SUFFIX,claude.ai.com,🤖 BandCN
+  - DOMAIN-SUFFIX,integrate.api.nvidia.com,🤖 BandCN
+  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com,🤖 BandCN
+  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com,🤖 BandCN
+  - DOMAIN,p16-tiktokcdn-com.akamaized.net,🤖 BandCN
+  - DOMAIN-SUFFIX,bytedapm.com,🤖 BandCN
+  - DOMAIN-SUFFIX,bytegecko-i18n.com,🤖 BandCN
+  - DOMAIN-SUFFIX,byteoversea.com,🤖 BandCN
+  - DOMAIN-SUFFIX,capcut.com,🤖 BandCN
+  - DOMAIN-SUFFIX,ibytedtos.com,🤖 BandCN
+  - DOMAIN-SUFFIX,ibyteimg.com,🤖 BandCN
+  - DOMAIN-SUFFIX,ipstatp.com,🤖 BandCN
+  - DOMAIN-SUFFIX,isnssdk.com,🤖 BandCN
+  - DOMAIN-SUFFIX,muscdn.com,🤖 BandCN
+  - DOMAIN-SUFFIX,musical.ly,🤖 BandCN
+  - DOMAIN-SUFFIX,sgpstatp.com,🤖 BandCN
+  - DOMAIN-SUFFIX,snssdk.com,🤖 BandCN
+  - DOMAIN-SUFFIX,tik-tokapi.com,🤖 BandCN
+  - DOMAIN-SUFFIX,tiktok.com,🤖 BandCN
+  - DOMAIN-SUFFIX,tiktokcdn-us.com,🤖 BandCN
+  - DOMAIN-SUFFIX,tiktokcdn.com,🤖 BandCN
+  - DOMAIN-SUFFIX,tiktokd.net,🤖 BandCN
+  - DOMAIN-SUFFIX,tiktokd.org,🤖 BandCN
+  - DOMAIN-SUFFIX,tiktokmusic.app,🤖 BandCN
+  - DOMAIN-SUFFIX,tiktokv.com,🤖 BandCN
+  - DOMAIN-SUFFIX,tiktokv.us,🤖 BandCN
+  - DOMAIN-SUFFIX,ttwebview.com,🤖 BandCN
+  - DOMAIN-KEYWORD,musical.ly,🤖 BandCN
+  - DOMAIN-KEYWORD,tiktok,🤖 BandCN
+  - PROCESS-NAME,com.zhiliaoapp.musically,🤖 BandCN
+  - GEOSITE,gfw,♻️ 自动选择
+  - GEOSITE,geolocation-!cn,♻️ 自动选择
+  - MATCH,🐟 漏网之鱼
