@@ -1,0 +1,689 @@
+---
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+proxies:
+- name: "\U0001F1ED\U0001F1F0 Lv2 香港 01 [1.5]"
+  server: sdv2-hk.04z3susick.download
+  port: 5601
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 Lv2 香港 02 [1.5]"
+  server: sdv2-hk.04z3susick.download
+  port: 5602
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 Lv2 香港 03 [1.5]"
+  server: sdv2-hk.04z3susick.download
+  port: 5603
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 Lv2 香港 04 [1.5]"
+  server: sdv2-hk.04z3susick.download
+  port: 5604
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 Lv2 香港 05 [1.5]"
+  server: sdv2-hk.04z3susick.download
+  port: 5605
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 Lv2 香港 06 [1.5]"
+  server: sdv2-hk.04z3susick.download
+  port: 5606
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 Lv2 香港 07 [1.5]"
+  server: sdv2-hk.04z3susick.download
+  port: 5607
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 Lv2 香港 08 [1.5]"
+  server: sdv2-hk.04z3susick.download
+  port: 5608
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 Lv2 台湾 01 [1.5]"
+  server: sdv2-tw.04z3susick.download
+  port: 5621
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 Lv2 台湾 02 [1.5]"
+  server: sdv2-tw.04z3susick.download
+  port: 5622
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 Lv2 台湾 03 [1.5]"
+  server: sdv2-tw.04z3susick.download
+  port: 5623
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 Lv2 台湾 04 [1.5]"
+  server: sdv2-tw.04z3susick.download
+  port: 5624
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 Lv2 台湾 05 [1.5]"
+  server: sdv2-tw.04z3susick.download
+  port: 5625
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 Lv2 台湾 06 [1.5]"
+  server: sdv2-tw.04z3susick.download
+  port: 5626
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 Lv2 日本 01 [1.5]"
+  server: sdv2-jp.04z3susick.download
+  port: 5615
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 Lv2 日本 02 [1.5]"
+  server: sdv2-jp.04z3susick.download
+  port: 5616
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 Lv2 日本 03 [1.5]"
+  server: sdv2-jp.04z3susick.download
+  port: 5617
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 Lv2 日本 04 [1.5]"
+  server: sdv2-jp.04z3susick.download
+  port: 5618
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 Lv2 日本 05 [1.5]"
+  server: sdv2-jp.04z3susick.download
+  port: 5619
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 Lv2 日本 06 [1.5]"
+  server: sdv2-jp.04z3susick.download
+  port: 5620
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 Lv2 美国 01 [1.5]"
+  server: sdv2-us.04z3susick.download
+  port: 5627
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 Lv2 美国 02 [1.5]"
+  server: sdv2-us.04z3susick.download
+  port: 5628
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 Lv2 美国 03 [1.5]"
+  server: sdv2-us.04z3susick.download
+  port: 5629
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 Lv2 美国 04 [1.5]"
+  server: sdv2-us.04z3susick.download
+  port: 5630
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 Lv2 美国 05 [1.5]"
+  server: sdv2-us.04z3susick.download
+  port: 5631
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 Lv2 美国 06 [1.5]"
+  server: sdv2-us.04z3susick.download
+  port: 5632
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1F8\U0001F1EC Lv2 新加坡 01 [1.5]"
+  server: sdv2-sg.04z3susick.download
+  port: 5609
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1F8\U0001F1EC Lv2 新加坡 02 [1.5]"
+  server: sdv2-sg.04z3susick.download
+  port: 5610
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1F8\U0001F1EC Lv2 新加坡 03 [1.5]"
+  server: sdv2-sg.04z3susick.download
+  port: 5611
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1F8\U0001F1EC Lv2 新加坡 04 [1.5]"
+  server: sdv2-sg.04z3susick.download
+  port: 5612
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1F8\U0001F1EC Lv2 新加坡 05 [1.5]"
+  server: sdv2-sg.04z3susick.download
+  port: 5613
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+- name: "\U0001F1F8\U0001F1EC Lv2 新加坡 06 [1.5]"
+  server: sdv2-sg.04z3susick.download
+  port: 5614
+  type: trojan
+  password: b545ebc5-663f-47d8-87d8-9aeadb2e1b9c
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: false
+  udp: true
+proxy-groups:
+- name: "♻️ 自动选择"
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - "\U0001F1ED\U0001F1F0 香港节点"
+  - "\U0001F1F9\U0001F1FC 台湾节点"
+- name: "\U0001F916 BandCN"
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - "\U0001F1EF\U0001F1F5 日本节点"
+  - "\U0001F1F8\U0001F1EC 新加坡节点"
+- name: "\U0001F41F 漏网之鱼"
+  type: select
+  proxies:
+  - "\U0001F3AF 全球直连"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 01 [1.5]"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 02 [1.5]"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 03 [1.5]"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 04 [1.5]"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 05 [1.5]"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 06 [1.5]"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 07 [1.5]"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 08 [1.5]"
+  - "\U0001F1E8\U0001F1F3 Lv2 台湾 01 [1.5]"
+  - "\U0001F1E8\U0001F1F3 Lv2 台湾 02 [1.5]"
+  - "\U0001F1E8\U0001F1F3 Lv2 台湾 03 [1.5]"
+  - "\U0001F1E8\U0001F1F3 Lv2 台湾 04 [1.5]"
+  - "\U0001F1E8\U0001F1F3 Lv2 台湾 05 [1.5]"
+  - "\U0001F1E8\U0001F1F3 Lv2 台湾 06 [1.5]"
+  - "\U0001F1EF\U0001F1F5 Lv2 日本 01 [1.5]"
+  - "\U0001F1EF\U0001F1F5 Lv2 日本 02 [1.5]"
+  - "\U0001F1EF\U0001F1F5 Lv2 日本 03 [1.5]"
+  - "\U0001F1EF\U0001F1F5 Lv2 日本 04 [1.5]"
+  - "\U0001F1EF\U0001F1F5 Lv2 日本 05 [1.5]"
+  - "\U0001F1EF\U0001F1F5 Lv2 日本 06 [1.5]"
+  - "\U0001F1FA\U0001F1F8 Lv2 美国 01 [1.5]"
+  - "\U0001F1FA\U0001F1F8 Lv2 美国 02 [1.5]"
+  - "\U0001F1FA\U0001F1F8 Lv2 美国 03 [1.5]"
+  - "\U0001F1FA\U0001F1F8 Lv2 美国 04 [1.5]"
+  - "\U0001F1FA\U0001F1F8 Lv2 美国 05 [1.5]"
+  - "\U0001F1FA\U0001F1F8 Lv2 美国 06 [1.5]"
+  - "\U0001F1F8\U0001F1EC Lv2 新加坡 01 [1.5]"
+  - "\U0001F1F8\U0001F1EC Lv2 新加坡 02 [1.5]"
+  - "\U0001F1F8\U0001F1EC Lv2 新加坡 03 [1.5]"
+  - "\U0001F1F8\U0001F1EC Lv2 新加坡 04 [1.5]"
+  - "\U0001F1F8\U0001F1EC Lv2 新加坡 05 [1.5]"
+  - "\U0001F1F8\U0001F1EC Lv2 新加坡 06 [1.5]"
+- name: "\U0001F3AF 全球直连"
+  type: select
+  proxies:
+  - DIRECT
+- name: "\U0001F3AE Game"
+  type: select
+  proxies:
+  - DIRECT
+- name: "\U0001F18E AdBlock"
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: "\U0001F1ED\U0001F1F0 香港节点"
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 01 [1.5]"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 02 [1.5]"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 03 [1.5]"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 04 [1.5]"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 05 [1.5]"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 06 [1.5]"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 07 [1.5]"
+  - "\U0001F1ED\U0001F1F0 Lv2 香港 08 [1.5]"
+- name: "\U0001F1FA\U0001F1F8 美国节点"
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - "\U0001F1FA\U0001F1F8 Lv2 美国 01 [1.5]"
+  - "\U0001F1FA\U0001F1F8 Lv2 美国 02 [1.5]"
+  - "\U0001F1FA\U0001F1F8 Lv2 美国 03 [1.5]"
+  - "\U0001F1FA\U0001F1F8 Lv2 美国 04 [1.5]"
+  - "\U0001F1FA\U0001F1F8 Lv2 美国 05 [1.5]"
+  - "\U0001F1FA\U0001F1F8 Lv2 美国 06 [1.5]"
+- name: "\U0001F1EF\U0001F1F5 日本节点"
+  type: url-test
+  url: http://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - "\U0001F1EF\U0001F1F5 Lv2 日本 01 [1.5]"
+  - "\U0001F1EF\U0001F1F5 Lv2 日本 02 [1.5]"
+  - "\U0001F1EF\U0001F1F5 Lv2 日本 03 [1.5]"
+  - "\U0001F1EF\U0001F1F5 Lv2 日本 04 [1.5]"
+  - "\U0001F1EF\U0001F1F5 Lv2 日本 05 [1.5]"
+  - "\U0001F1EF\U0001F1F5 Lv2 日本 06 [1.5]"
+- name: "\U0001F1F8\U0001F1EC 新加坡节点"
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - "\U0001F1F8\U0001F1EC Lv2 新加坡 01 [1.5]"
+  - "\U0001F1F8\U0001F1EC Lv2 新加坡 02 [1.5]"
+  - "\U0001F1F8\U0001F1EC Lv2 新加坡 03 [1.5]"
+  - "\U0001F1F8\U0001F1EC Lv2 新加坡 04 [1.5]"
+  - "\U0001F1F8\U0001F1EC Lv2 新加坡 05 [1.5]"
+  - "\U0001F1F8\U0001F1EC Lv2 新加坡 06 [1.5]"
+- name: "\U0001F1F9\U0001F1FC 台湾节点"
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - "\U0001F1E8\U0001F1F3 Lv2 台湾 01 [1.5]"
+  - "\U0001F1E8\U0001F1F3 Lv2 台湾 02 [1.5]"
+  - "\U0001F1E8\U0001F1F3 Lv2 台湾 03 [1.5]"
+  - "\U0001F1E8\U0001F1F3 Lv2 台湾 04 [1.5]"
+  - "\U0001F1E8\U0001F1F3 Lv2 台湾 05 [1.5]"
+  - "\U0001F1E8\U0001F1F3 Lv2 台湾 06 [1.5]"
+- name: "\U0001F1F0\U0001F1F7 韩国节点"
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - DIRECT
+- name: "\U0001F1E8\U0001F1E6 加拿大节点"
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - DIRECT
+- name: "\U0001F1EC\U0001F1E7 英国节点"
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - DIRECT
+- name: "\U0001F1EB\U0001F1F7 法国节点"
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - DIRECT
+- name: "\U0001F1E9\U0001F1EA 德国节点"
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - DIRECT
+- name: "\U0001F1F3\U0001F1F1 荷兰节点"
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - DIRECT
+- name: "\U0001F1F9\U0001F1F7 土耳其节点"
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - DIRECT
+- name: "\U0001F1FB\U0001F1F3 越南节点"
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 180
+  tolerance: 100
+  proxies:
+  - DIRECT
+rules:
+- "SRC-IP-CIDR,192.168.1.13/32,\U0001F3AE Game"
+- "GEOSITE,CN,\U0001F3AF 全球直连"
+- "GEOIP,CN,\U0001F3AF 全球直连"
+- "DOMAIN-KEYWORD,openai,\U0001F916 BandCN"
+- "DOMAIN-KEYWORD,anthropic,\U0001F916 BandCN"
+- "DOMAIN-KEYWORD,Claude,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,perplexity.ai,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,chatgpt.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,auth0.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,client-api.arkoselabs.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,events.statsigapi.net,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,featuregates.org,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,identrust.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,intercom.io,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,intercomcdn.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,oaistatic.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,oaiusercontent.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,openai.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,openaiapi-site.azureedge.net,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,sentry.io,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,stripe.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,bard.google.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,gemini.google.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,makersuite.google.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,anthropic.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,claude.ai.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,integrate.api.nvidia.com,\U0001F916 BandCN"
+- "DOMAIN,lf16-effectcdn.byteeffecttos-g.com,\U0001F916 BandCN"
+- "DOMAIN,lf16-pkgcdn.pitaya-clientai.com,\U0001F916 BandCN"
+- "DOMAIN,p16-tiktokcdn-com.akamaized.net,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,bytedapm.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,bytegecko-i18n.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,byteoversea.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,capcut.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,ibytedtos.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,ibyteimg.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,ipstatp.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,isnssdk.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,muscdn.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,musical.ly,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,sgpstatp.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,snssdk.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,tik-tokapi.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,tiktok.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,tiktokcdn-us.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,tiktokcdn.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,tiktokd.net,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,tiktokd.org,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,tiktokmusic.app,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,tiktokv.com,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,tiktokv.us,\U0001F916 BandCN"
+- "DOMAIN-SUFFIX,ttwebview.com,\U0001F916 BandCN"
+- "DOMAIN-KEYWORD,musical.ly,\U0001F916 BandCN"
+- "DOMAIN-KEYWORD,tiktok,\U0001F916 BandCN"
+- "PROCESS-NAME,com.zhiliaoapp.musically,\U0001F916 BandCN"
+- GEOSITE,gfw,♻️ 自动选择
+- GEOSITE,geolocation-!cn,♻️ 自动选择
+- "MATCH,\U0001F41F 漏网之鱼"
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  listen: 0.0.0.0:7874
+  fake-ip-filter-mode: blacklist
+  nameserver:
+  - 192.168.1.1
+  fake-ip-filter:
+  - "*.lan"
+  - "*.localdomain"
+  - "*.example"
+  - "*.invalid"
+  - "*.localhost"
+  - "*.test"
+  - "*.local"
+  - "*.home.arpa"
+  - time.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - time.*.apple.com
+  - time-ios.apple.com
+  - time1.*.com
+  - time2.*.com
+  - time3.*.com
+  - time4.*.com
+  - time5.*.com
+  - time6.*.com
+  - time7.*.com
+  - ntp.*.com
+  - ntp1.*.com
+  - ntp2.*.com
+  - ntp3.*.com
+  - ntp4.*.com
+  - ntp5.*.com
+  - ntp6.*.com
+  - ntp7.*.com
+  - "*.time.edu.cn"
+  - "*.ntp.org.cn"
+  - "+.pool.ntp.org"
+  - time1.cloud.tencent.com
+  - music.163.com
+  - "*.music.163.com"
+  - "*.126.net"
+  - musicapi.taihe.com
+  - music.taihe.com
+  - songsearch.kugou.com
+  - trackercdn.kugou.com
+  - "*.kuwo.cn"
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - joox.com
+  - y.qq.com
+  - "*.y.qq.com"
+  - streamoc.music.tc.qq.com
+  - mobileoc.music.tc.qq.com
+  - isure.stream.qqmusic.qq.com
+  - dl.stream.qqmusic.qq.com
+  - aqqmusic.tc.qq.com
+  - amobile.music.tc.qq.com
+  - "*.xiami.com"
+  - "*.music.migu.cn"
+  - music.migu.cn
+  - "+.msftconnecttest.com"
+  - "+.msftncsi.com"
+  - localhost.ptlogin2.qq.com
+  - localhost.sec.qq.com
+  - "+.qq.com"
+  - "+.tencent.com"
+  - "+.srv.nintendo.net"
+  - "*.n.n.srv.nintendo.net"
+  - "+.cdn.nintendo.net"
+  - "+.stun.playstation.net"
+  - xbox.*.*.microsoft.com
+  - "*.*.xboxlive.com"
+  - xbox.*.microsoft.com
+  - xnotify.xboxlive.com
+  - "+.battlenet.com.cn"
+  - "+.wotgame.cn"
+  - "+.wggames.cn"
+  - "+.wowsgame.cn"
+  - "+.wargaming.net"
+  - proxy.golang.org
+  - stun.*.*
+  - stun.*.*.*
+  - "+.stun.*.*"
+  - "+.stun.*.*.*"
+  - "+.stun.*.*.*.*"
+  - "+.stun.*.*.*.*.*"
+  - heartbeat.belkin.com
+  - "*.linksys.com"
+  - "*.linksyssmartwifi.com"
+  - "*.router.asus.com"
+  - mesu.apple.com
+  - swscan.apple.com
+  - swquery.apple.com
+  - swdownload.apple.com
+  - swcdn.apple.com
+  - swdist.apple.com
+  - lens.l.google.com
+  - stun.l.google.com
+  - na.b.g-tun.com
+  - "+.nflxvideo.net"
+  - "*.square-enix.com"
+  - "*.finalfantasyxiv.com"
+  - "*.ffxiv.com"
+  - "*.ff14.sdo.com"
+  - ff.dorado.sdo.com
+  - "*.mcdn.bilivideo.cn"
+  - "+.media.dssott.com"
+  - shark007.net
+  - Mijia Cloud
+  - "+.cmbchina.com"
+  - "+.cmbimg.com"
+  - local.adguard.org
+  - "+.sandai.net"
+  - "+.n0808.com"
+  - "+.uu.163.com"
+  - ps.res.netease.com
+  - "+.pub.3gppnetwork.org"
+  - geosite:category-games
+  - "+.services.googleapis.cn"
+  - "+.googleapis.cn"
+  - "+.xn--ngstr-lra8j.com"
+  - geosite:cn
+  default-nameserver:
+  - 192.168.1.1
+redir-port: 7892
+tproxy-port: 7895
+mixed-port: 7893
+secret: ''
+bind-address: "*"
+external-ui: "/usr/share/openclash/ui"
+keep-alive-interval: 15
+keep-alive-idle: 600
+ipv6: false
+tcp-concurrent: true
+unified-delay: true
+sniffer:
+  enable: true
+  override-destination: true
+  sniff:
+    QUIC:
+      ports:
+      - 443
+    TLS:
+      ports:
+      - 443
+      - 8443
+    HTTP:
+      ports:
+      - 80
+      - 8080-8880
+      override-destination: true
+  force-domain:
+  - "+.netflix.com"
+  - "+.nflxvideo.net"
+  - "+.amazonaws.com"
+  - "+.media.dssott.com"
+  skip-domain:
+  - "+.apple.com"
+  - Mijia Cloud
+  - dlg.io.mi.com
+  - "+.oray.com"
+  - "+.sunlogin.net"
+  - "+.push.apple.com"
+  parse-pure-ip: true
+tun:
+  enable: true
+  stack: mixed
+  device: utun
+  dns-hijack:
+  - 127.0.0.1:53
+  endpoint-independent-nat: true
+  auto-route: false
+  auto-detect-interface: false
+  auto-redirect: false
+  strict-route: false
+profile:
+  store-selected: true
+  store-fake-ip: true
